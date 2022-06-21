@@ -3,44 +3,44 @@ public class Example {
     public static void main(String[] args) {
 
         for (int day = 1; day <= 12; day++) {
-            System.out.print("On the "); //1
+            System.out.print("On the "); 
 
             switch (day) {
                 case 1:
-                    System.out.print("First");//st //total op 1st //suffix 1st
+                    System.out.print("First");//First
                     break;
                 case 2:
-                    System.out.print("Second");//2nd
+                    System.out.print("Second");//Second
                     break;
                 case 3:
-                    System.out.print("Third");//3rd
+                    System.out.print("Third");//Third
                     break;
                 case 4:
-                    System.out.print("Fourth");//3rd
+                    System.out.print("Fourth");//Fourth
                     break;
                 case 5:
-                    System.out.print("Fifth");//3rd
+                    System.out.print("Fifth");//Fifth
                     break;
                 case 6:
-                    System.out.print("Sixth");//3rd
+                    System.out.print("Sixth");//Sixth
                     break;
                 case 7:
-                    System.out.print("Seventh");//3rd
+                    System.out.print("Seventh");//Seventh
                     break;
                 case 8:
-                    System.out.print("Eighth");//3rd
+                    System.out.print("Eighth");//Eighth
                     break;
                 case 9:
-                    System.out.print("Nineth");//3rd
+                    System.out.print("Nineth");//Nineth
                     break;
                 case 10:
-                    System.out.print("Tenth");//3rd
+                    System.out.print("Tenth");//Tenth
                     break;
                 case 11:
-                    System.out.print("Eleventh");//3rd
+                    System.out.print("Eleventh");//Eleventh
                     break;
                 default:
-                    System.out.print("Twelfth");//4th-12th
+                    System.out.print("Twelfth");//Twefth
             }
 
             System.out.println(" day of Christmas my true love gave to me");
