@@ -3,52 +3,76 @@ public class Example {
     public static void main(String[] args) {
 
         for (int day = 1; day <= 12; day++) {
-            System.out.print("On the " + day); //1
+            System.out.print("On the "); //1
 
             switch (day) {
                 case 1:
-                    System.out.print("st");//st //total op 1st //suffix 1st
+                    System.out.print("First");//st //total op 1st //suffix 1st
                     break;
                 case 2:
-                    System.out.print("nd");//2nd
+                    System.out.print("Second");//2nd
                     break;
                 case 3:
-                    System.out.print("rd");//3rd
+                    System.out.print("Third");//3rd
+                    break;
+                case 4:
+                    System.out.print("Fourth");//3rd
+                    break;
+                case 5:
+                    System.out.print("Fifth");//3rd
+                    break;
+                case 6:
+                    System.out.print("Sixth");//3rd
+                    break;
+                case 7:
+                    System.out.print("Seventh");//3rd
+                    break;
+                case 8:
+                    System.out.print("Eighth");//3rd
+                    break;
+                case 9:
+                    System.out.print("Nineth");//3rd
+                    break;
+                case 10:
+                    System.out.print("Tenth");//3rd
+                    break;
+                case 11:
+                    System.out.print("Eleventh");//3rd
                     break;
                 default:
-                    System.out.print("th");//4th-12th
+                    System.out.print("Twelfth");//4th-12th
             }
 
             System.out.println(" day of Christmas my true love gave to me");
 
             switch (day) {
                 case 12:
-                    System.out.println("Twelve drummers drumming,");
+                    System.out.print("Twelve drummers drumming,");
                 case 11:
-                    System.out.println("Eleven pipers piping,");
+                    System.out.print("Eleven pipers piping,");
                 case 10:
-                    System.out.println("Ten lords a leaping,");
+                    System.out.print("Ten lords a leaping,");
                 case 9:
-                    System.out.println("Nine ladies dancing,");
+                    System.out.print("Nine ladies dancing,");
                 case 8:
-                    System.out.println("Eight maids a milking,");
+                    System.out.print("Eight maids a milking,");
                 case 7:
-                    System.out.println("Seven swans a swimming,");
+                    System.out.print("Seven swans a swimming,");
                 case 6:
-                    System.out.println("Six geese a laying,");
+                    System.out.print("Six geese a laying,");
                 case 5:
-                    System.out.println("Five golden rings,");
+                    System.out.print("Five golden rings,");
                 case 4:
-                    System.out.println("Four calling birds,");
+                    System.out.print("Four calling birds,");
                 case 3:
-                    System.out.println("Three French hens,");
+                    System.out.print("Three French hens,");
                 case 2:
-                    System.out.println("Two turtle doves, and");
+                    System.out.print("Two turtle doves, and");
                 default:
-                    System.out.println("A partridge in a pear tree.");
+                    System.out.print("A partridge in a pear tree.");
             }
 
-            System.out.println();
+            System.out.println("\n");
         }
     }
 }
