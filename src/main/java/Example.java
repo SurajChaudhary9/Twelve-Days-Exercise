@@ -3,20 +3,20 @@ public class Example {
     public static void main(String[] args) {
 
         for (int day = 1; day <= 12; day++) {
-            System.out.print("On the " + day);
+            System.out.print("On the " + day); //1
 
             switch (day) {
                 case 1:
-                    System.out.print("st");
+                    System.out.print("st");//st //total op 1st //suffix 1st
                     break;
                 case 2:
-                    System.out.print("nd");
+                    System.out.print("nd");//2nd
                     break;
                 case 3:
-                    System.out.print("rd");
+                    System.out.print("rd");//3rd
                     break;
                 default:
-                    System.out.print("th");
+                    System.out.print("th");//4th-12th
             }
 
             System.out.println(" day of Christmas my true love gave to me");
