@@ -1,9 +1,9 @@
-public class Example {
+public class TwelveDays {
 
     public static void main(String[] args) {
 
         for (int day = 1; day <= 12; day++) {
-            System.out.print("On the "); 
+            System.out.print("On the ");
 
             switch (day) {
                 case 1:
